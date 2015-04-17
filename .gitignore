@@ -1,2 +1,6 @@
 *.csv
 *.jpg
+.Rhistory
+*.xlxs
+*~
+*.txt
