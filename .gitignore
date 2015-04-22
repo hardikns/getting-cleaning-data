@@ -4,3 +4,5 @@
 *.xlxs
 *~
 *.txt
+*.zip
+.RData
