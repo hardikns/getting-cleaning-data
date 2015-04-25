@@ -90,7 +90,7 @@ datastore <-function() {
         textToReplace <- c("^f", "^t", "\\(\\)", "Acc", "Gyro", 
                            "Mag", "BodyBody", "X$", "Y$", "Z$", 
                            "\\bstd\\b")
-        replacementText <- c("frequency", "time", "", "Accelerometer", "Gyroscope", 
+        replacementText <- c("frequency", "time", "", "Acceleration", "Gyroscopic", 
                              "Magnitude", "Body", "Xaxis", "Yaxis", "Zaxix", 
                              "StandardDeviation")     
         setnames(data, mgsub(textToReplace, replacementText, x=names(data)))
