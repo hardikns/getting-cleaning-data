@@ -12,12 +12,12 @@ inside the Test and Train dataset folders.
 ### What does the script do?
 The run_analysis.R script does the following:
 
-    1. Merges the 3 separate files into 1 dataset for Test and Train. Also, applies column names
-    2. Merges the Test and Train dataset to create a merged dataset.
-    3. Removes the unwanted measures (for this analysis only mean and standard-deviation measures have been selected).
-    4. Converts the dataset into Tall dataset (i.e. each measure per observation is on separate row)
-    5. Takes mean of all the measures for a subject and activity combination to create a tidy tall dataset
-    6. Converts the tall dataset into wide tidy dataset (i.e. mean of all measures are separate columns)
+1. Merges the 3 separate files into 1 dataset for Test and Train. Also, applies column names
+2. Merges the Test and Train dataset to create a merged dataset.
+3. Removes the unwanted measures (for this analysis only mean and standard-deviation measures have been selected).
+4. Converts the dataset into Tall dataset (i.e. each measure per observation is on separate row)
+5. Takes mean of all the measures for a subject and activity combination to create a tidy tall dataset
+6. Converts the tall dataset into wide tidy dataset (i.e. mean of all measures are separate columns)
 
 ### How to run the script?
 Running `source("./run_analysis.R")` will run the entire script and places 
